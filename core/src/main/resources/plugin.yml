@@ -1,0 +1,13 @@
+api: test
+name: core
+main: core.Plugin
+version: "1.0"
+api-version: 1.17
+
+commands:
+  game:
+    description: Starts the bomb game
+    usage: /game <start|stop>
+  voting-menu:
+    description: Generates a voting menu with a random player's head
+    usage: /voting-menu <create|delete|open>    
